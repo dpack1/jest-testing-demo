@@ -1,5 +1,5 @@
-![Jest Logo](https://jestjs.io/img/opengraph.png)
-# Jest Testing Demo 
+# Jest Unit Testing Workshop <img src="https://jestjs.io/img/opengraph.png" width="60" height="30" />
+
 
 This repository demonstrates setting up Jest for unit testing in a Node.js project. It includes a simple function with basic tests to illustrate the fundamentals of unit testing with Jest.
 
