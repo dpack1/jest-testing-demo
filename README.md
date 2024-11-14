@@ -1,4 +1,5 @@
-# Jest Unit Testing Workshop <img src="https://jestjs.io/img/opengraph.png" width="60" height="30" />
+# Jest Unit Testing Workshop <img src="https://media3.giphy.com/media/7TwwMMfVIHTnvsnK0S/200w.gif?cid=6c09b952i5jrx8e0mb87mui7gdf2gnqmxxisxpvyw2e4n291&ep=v1_gifs_search&rid=200w.gif&ct=g" width="40" height="30" style="border-radius: 50%;" />
+
 
 
 This repository demonstrates setting up Jest for unit testing in a Node.js project. It includes a simple function with basic tests to illustrate the fundamentals of unit testing with Jest.
