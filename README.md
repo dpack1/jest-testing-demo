@@ -1,4 +1,4 @@
-# Jest Unit Testing Workshop <img src="https://media3.giphy.com/media/7TwwMMfVIHTnvsnK0S/200w.gif?cid=6c09b952i5jrx8e0mb87mui7gdf2gnqmxxisxpvyw2e4n291&ep=v1_gifs_search&rid=200w.gif&ct=g" width="40" height="30" style="border-radius: 50%;" />
+# Jest Unit Testing Workshop <img src="https://media3.giphy.com/media/7TwwMMfVIHTnvsnK0S/200w.gif?cid=6c09b952i5jrx8e0mb87mui7gdf2gnqmxxisxpvyw2e4n291&ep=v1_gifs_search&rid=200w.gif&ct=g" width="60" height="50" style="border-radius: 50%;" />
 
 
 
