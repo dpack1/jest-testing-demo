@@ -59,6 +59,7 @@ Jest provides a robust testing environment suited for both simple and complex pr
 **Install Dependencies**: 
 Make sure you have Node.js installed on your computer. Then, install the required dependencies:
 
+**Note: use Node V20**
 
 ``` bash
 npm install
