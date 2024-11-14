@@ -79,8 +79,6 @@ In **Level 100**, you’ll learn the basics of Jest and how to set it up in a pr
 - Writing a simple test to test basic functionality (e.g., math.js)
 - Running your tests to see Jest in action
 
-For a more detailed guide, please check the **level-100/README.md** file in the repo.
-
 ## Level 200: Harnessing and Isolated Testing
 ### What You’ll Do:
 In **Level 200**, we will dive deeper into writing unit tests for isolated functionality. We will focus on creating harnesses: small tests that mock external dependencies to ensure that individual units of code function correctly.
@@ -91,7 +89,6 @@ In **Level 200**, we will dive deeper into writing unit tests for isolated funct
 
 By the end of this level, you'll understand how to isolate functionality and create controlled test environments to ensure your code works as expected.
 
-For a more detailed guide, please check the **level-200/README.md** file in the repo.
 
 ## Level 300: Mocking in Jest
 ### What You’ll Do:
@@ -104,7 +101,6 @@ In **Level 300**, you’ll explore mocking in Jest. Mocking is a technique used 
 
 This level will help you understand how to control external dependencies using mocks, making your tests more focused and efficient.
 
-For a more detailed guide, please check the **level-300/README.md** file in the repo.
 
 ## Additional Resources
 [Jest Documentation](https://archive.jestjs.io/docs/en/22.x/getting-started.html) – The official Jest docs for further reading.
