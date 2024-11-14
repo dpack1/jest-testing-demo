@@ -7,14 +7,12 @@ This repository demonstrates setting up Jest for unit testing in a Node.js proje
 ## Table of Contents
 - [Introduction](#introduction)
 - [Why Jest?](#why-jest)
+- [What You’ll Learn](#what-youll-learn)
 - [Setup](#setup)
 - [Level 100: Introduction to Jest](#level-100-introduction-to-jest)
 - [Level 200: Harnessing and Isolated Testing](#level-200-harnessing-and-isolated-testing)
 - [Level 300: Mocking in Jest](#level-300-mocking-in-jest)
-- [Getting Started](#getting-started)
-- [What You’ll Learn](#what-youll-learn)
-- [License](#license)
-
+- [Additional Resources](#additional-resources)
 ---
 
 ## Introduction
@@ -41,6 +39,12 @@ While Node.js has a built-in test runner as of Node 18, Jest is chosen for this 
 
 Jest provides a robust testing environment suited for both simple and complex projects, which makes it an ideal choice for this demo and many real-world applications.
 
+## What You'll Learn
+- **Level 100: Jest Setup and Basics** – Learn how to install Jest, write your first test, and run it in a project.
+- **Level 200: Harnessing** – Understand how to isolate code and test it in controlled environments, including mock functions for external dependencies.
+- **Level 300: Mocking**– Dive deep into Jest’s mocking capabilities, learning how to mock functions and simulate various scenarios to ensure the correctness of your code.
+
+
 
 ## Setup
 **Clone the Repository**:
@@ -64,13 +68,6 @@ Make sure you have Node.js installed on your computer. Then, install the require
 npm test
 ```
 This will run all the test files and show you the results in the terminal.
-
-## What You'll Learn
-- **Level 100: Jest Setup and Basics** – Learn how to install Jest, write your first test, and run it in a project.
-- **Level 200: Harnessing** – Understand how to isolate code and test it in controlled environments, including mock functions for external dependencies.
-- **Level 300: Mocking**– Dive deep into Jest’s mocking capabilities, learning how to mock functions and simulate various scenarios to ensure the correctness of your code.
-
-
 
 ## Level 100: Introduction to Jest
 ### What You’ll Do:
@@ -108,6 +105,6 @@ This level will help you understand how to control external dependencies using m
 
 For a more detailed guide, please check the **level-300/README.md** file in the repo.
 
-Additional Resources
+## Additional Resources
 [Jest Documentation](https://archive.jestjs.io/docs/en/22.x/getting-started.html) – The official Jest docs for further reading.
 [Jest Cheat Sheet](https://devhints.io/jest) – A quick reference for Jest commands and functions.
