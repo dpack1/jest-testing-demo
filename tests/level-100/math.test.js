@@ -1,6 +1,6 @@
 // tests/math.test.js
 //imports the add function to test.
-const { add } = require('../src/math');
+const { add } = require('../../src/level-100/math');
 
 // defines a test case.
 test('adds 1 + 2 to equal 3', () => {

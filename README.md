@@ -8,9 +8,11 @@ This repository demonstrates setting up Jest for unit testing in a Node.js proje
 - [Introduction](#introduction)
 - [Why Jest?](#why-jest)
 - [Setup](#setup)
-- [Running Tests](#running-tests)
-- [Project Structure](#project-structure)
-- [Writing Tests](#writing-tests)
+- [Level 100: Introduction to Jest](#level-100-introduction-to-jest)
+- [Level 200: Harnessing and Isolated Testing](#level-200-harnessing-and-isolated-testing)
+- [Level 300: Mocking in Jest](#level-300-mocking-in-jest)
+- [Getting Started](#getting-started)
+- [What You’ll Learn](#what-youll-learn)
 - [License](#license)
 
 ---
@@ -39,9 +41,73 @@ While Node.js has a built-in test runner as of Node 18, Jest is chosen for this 
 
 Jest provides a robust testing environment suited for both simple and complex projects, which makes it an ideal choice for this demo and many real-world applications.
 
-## Setup
 
-### 1. Clone the Repository
-```bash
-git clone <repository-url>
-cd jest-testing-demo
+## Setup
+**Clone the Repository**:
+ To get started, clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/dpack1/jest-testing-demo.git
+   cd jest-unit-testing-workshop
+   ```
+
+**Install Dependencies**: 
+Make sure you have Node.js installed on your computer. Then, install the required dependencies:
+
+
+``` bash
+npm install
+```
+
+**Run Tests:**:
+Make sure you have Node.js installed on your computer. Then, install the required dependencies:
+``` bash
+npm test
+```
+This will run all the test files and show you the results in the terminal.
+
+## What You'll Learn
+- **Level 100: Jest Setup and Basics** – Learn how to install Jest, write your first test, and run it in a project.
+- **Level 200: Harnessing** – Understand how to isolate code and test it in controlled environments, including mock functions for external dependencies.
+- **Level 300: Mocking**– Dive deep into Jest’s mocking capabilities, learning how to mock functions and simulate various scenarios to ensure the correctness of your code.
+
+
+
+## Level 100: Introduction to Jest
+### What You’ll Do:
+In **Level 100**, you’ll learn the basics of Jest and how to set it up in a project. We’ll start by installing Jest, writing a simple test, and running it to see how Jest works.
+
+### Hands-On:
+- Installing Jest in a GitHub project
+- Writing a simple test to test basic functionality (e.g., math.js)
+- Running your tests to see Jest in action
+
+For a more detailed guide, please check the **level-100/README.md** file in the repo.
+
+## Level 200: Harnessing and Isolated Testing
+### What You’ll Do:
+In **Level 200**, we will dive deeper into writing unit tests for isolated functionality. We will focus on creating harnesses: small tests that mock external dependencies to ensure that individual units of code function correctly.
+
+### Hands-On:
+- Write a harness that isolates the function and mocks the external dependency.
+- Use assertions to validate the functionality of your code.
+
+By the end of this level, you'll understand how to isolate functionality and create controlled test environments to ensure your code works as expected.
+
+For a more detailed guide, please check the **level-200/README.md** file in the repo.
+
+## Level 300: Mocking in Jest
+### What You’ll Do:
+In **Level 300**, you’ll explore mocking in Jest. Mocking is a technique used to replace parts of your code with simplified versions for testing. It allows you to simulate various scenarios, including edge cases and errors, without requiring complex setups.
+
+### Hands-On:
+- Mock a database or an API call to test a function.
+- Create your own mock using jest.fn() to simulate different responses.
+- Write assertions to ensure the mocked function behaves as expected.
+
+This level will help you understand how to control external dependencies using mocks, making your tests more focused and efficient.
+
+For a more detailed guide, please check the **level-300/README.md** file in the repo.
+
+Additional Resources
+[Jest Documentation](https://archive.jestjs.io/docs/en/22.x/getting-started.html) – The official Jest docs for further reading.
+[Jest Cheat Sheet](https://devhints.io/jest) – A quick reference for Jest commands and functions.
