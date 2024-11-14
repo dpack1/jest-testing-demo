@@ -51,7 +51,7 @@ Jest provides a robust testing environment suited for both simple and complex pr
  To get started, clone the repository to your local machine:
    ```bash
    git clone https://github.com/dpack1/jest-testing-demo.git
-   cd jest-unit-testing-workshop
+   cd jest-testing-demo
    ```
 
 **Install Dependencies**: 
